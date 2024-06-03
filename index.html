@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="birds.gif" type="image/x-icon">
+    <title>Love calculator</title>
 </head>
 <style>
     body {
         overflow: hidden;
+        
   width: 100%;
   height: 100%;
   background: radial-gradient(
@@ -234,7 +236,12 @@ p{
 }
 
 @media (max-width:760px) {
+  body{
+    font-family: monospace;
+  }
   .main-div{
+    font-family: monospace;
+    font-weight: 700;
     margin-top: -5px;
     margin-left: 40px  ;
     border-radius: 15px;
@@ -249,8 +256,28 @@ p{
   margin-left: 50px;
   --accent-color: #a1000e;
 }
+.welcome-text{
+    font-size: 25px;
+    color: #a1000e;
+    font-family: monospace;
+    font-weight: 700;
+}
+.Calculate-text{
+    color: #a1000e;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 20px;
+}
+.enter-names{
+    font-size: small;
+    color: #a1000e;
+    font-family: monospace;
+    font-weight: 700;
+}
 .first-name{
-    font-size: medium;
+  font-weight: 700;
+  font-family: monospace;
+    font-size: 17px ;
 }
 button{
     width: 64px;
@@ -258,17 +285,18 @@ button{
   margin-top: 5px;
 }
 .Calculate-text2{
-    font-family: cursive;
+    font-family: monospace;
     font-weight: 700;
     position: absolute;
-    margin-left: -25px;
+    margin-left: -30px;
     margin-top: -5px;
     font-size: 12px;
 }
 
 p{
     color: white;
-    font-family: cursive;
+    font-family: monospace;
+    font-weight: 700;
 }
 }
 
